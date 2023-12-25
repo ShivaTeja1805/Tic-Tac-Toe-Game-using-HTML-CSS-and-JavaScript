@@ -58,7 +58,9 @@ const checkwinner = () => {
 };
 
 const draw = ()=>{
-    msg.innerText = "It was a Tie! Please, try again!"
+    msg.innerText = "It was a Tie! Please, try again!";
+    msgcontainer.classList.remove("hide");
+    disableboxes();
 }
 
 const disableboxes = ()=>{
