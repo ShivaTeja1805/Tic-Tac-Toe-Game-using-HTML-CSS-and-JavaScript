@@ -4,8 +4,8 @@ let newBtn = document.querySelector("#newgamebtn");
 let msgcontainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#winmsg");
 
-// let player1 = prompt("Enter the name of player1:");
-// let player2 = prompt("Enter the name of the player2:");
+let player1 = prompt("Enter the name of player1:");
+let player2 = prompt("Enter the name of the player2:");
 let turnO = true;
 let count =0;
 const winpatterns = [
