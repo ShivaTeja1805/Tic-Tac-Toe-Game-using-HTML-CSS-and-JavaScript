@@ -79,25 +79,26 @@ body{
 }
 
 .hide{
-    display: none;
+    /* display: none; */
 }
 
 
 /* ------------MEDIA QURIES--------------- */
 @media (max-width:450px){
     #newgamebtn{
-        height: 20vmin;
-        width: 70vmin;
-        font-size: 8vmin;
+        height: 15vmin;
+        width: 50vmin;
+        font-size: 5vmin;
     }
     #resetbtn{
-        height: 20vmin;
-        width: 70vmin;
-        font-size: 8vmin;
+        height: 15vmin;
+        width: 50vmin;
+        font-size: 5vmin;
+        margin-top: 5vmin;
     
     }
     #winmsg{
-        font-size: 15vmin;
+        font-size: 9vmin;
         color: #ffffc7;
     }
 }
