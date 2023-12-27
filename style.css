@@ -87,18 +87,18 @@ body{
 @media (max-width:450px){
     #newgamebtn{
         height: 15vmin;
-        width: 50vmin;
+        width: 40vmin;
         font-size: 5vmin;
     }
     #resetbtn{
         height: 15vmin;
-        width: 50vmin;
+        width: 40vmin;
         font-size: 5vmin;
         margin-top: 5vmin;
     
     }
     #winmsg{
-        font-size: 9vmin;
+        font-size: 8vmin;
         color: #ffffc7;
     }
 }

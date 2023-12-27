@@ -82,11 +82,12 @@ const enableboxes = ()=>{
 const showWinner = (pos1val) =>{
     if(pos1val==="O"){
         msg.innerText = `Congratulations!! Winner is ${player1}`
-    }else[
+    }else{
         msg.innerText = `Congratulations!! Winner is ${player2}`
-    ]
+    }
     msgcontainer.classList.remove("hide");
     disableboxes();
+    resetBtn.classList.add("hide");
 }
 
 
